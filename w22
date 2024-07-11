@@ -7,9 +7,7 @@
  Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
 ]=]
 
--- Instances: 132 | Scripts: 16 | Modules: 0
-local function scipt1()
-
+-- Instances: 134 | Scripts: 17 | Modules: 0
 local G2L = {};
 
 -- StarterGui.Century2
@@ -516,404 +514,419 @@ G2L["4e"]["AspectRatio"] = 4.16693;
 
 -- StarterGui.Century2.Frame.tab1
 G2L["4f"] = Instance.new("Frame", G2L["e"]);
-G2L["4f"]["Visible"] = false;
 G2L["4f"]["BorderSizePixel"] = 0;
 G2L["4f"]["BackgroundColor3"] = Color3.fromRGB(147, 255, 88);
-G2L["4f"]["Size"] = UDim2.new(0.69833, 0, 0.81858, 0);
-G2L["4f"]["Position"] = UDim2.new(0.28702, 0, 0.15487, 0);
+G2L["4f"]["Size"] = UDim2.new(0.67331, 0, 0.83736, 0);
+G2L["4f"]["Position"] = UDim2.new(0.32381, 0, 0.15487, 0);
 G2L["4f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["4f"]["Name"] = [[tab1]];
-G2L["4f"]["BackgroundTransparency"] = 0.85;
+G2L["4f"]["BackgroundTransparency"] = 1;
+
+-- StarterGui.Century2.Frame.tab1.but1
+G2L["50"] = Instance.new("TextButton", G2L["4f"]);
+G2L["50"]["BorderSizePixel"] = 0;
+G2L["50"]["TextSize"] = 14;
+G2L["50"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["50"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["50"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["50"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["50"]["Name"] = [[but1]];
+G2L["50"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["50"]["Position"] = UDim2.new(0.01749, 0, 0.79767, 0);
+
+-- StarterGui.Century2.Frame.tab1.but1.LocalScript
+G2L["51"] = Instance.new("LocalScript", G2L["50"]);
+
 
 -- StarterGui.Century2.Frame.tab2
-G2L["50"] = Instance.new("Frame", G2L["e"]);
-G2L["50"]["Visible"] = false;
-G2L["50"]["BorderSizePixel"] = 0;
-G2L["50"]["BackgroundColor3"] = Color3.fromRGB(44, 83, 255);
-G2L["50"]["Size"] = UDim2.new(0.6862, 0, 0.81858, 0);
-G2L["50"]["Position"] = UDim2.new(0.29915, 0, 0.15487, 0);
-G2L["50"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["50"]["Name"] = [[tab2]];
-G2L["50"]["BackgroundTransparency"] = 1;
-
--- StarterGui.Century2.Frame.tab3
-G2L["51"] = Instance.new("Frame", G2L["e"]);
-G2L["51"]["Visible"] = false;
-G2L["51"]["BorderSizePixel"] = 0;
-G2L["51"]["BackgroundColor3"] = Color3.fromRGB(222, 188, 255);
-G2L["51"]["Size"] = UDim2.new(0.6862, 0, 0.81858, 0);
-G2L["51"]["Position"] = UDim2.new(0.29915, 0, 0.15487, 0);
-G2L["51"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["51"]["Name"] = [[tab3]];
-G2L["51"]["BackgroundTransparency"] = 1;
-
--- StarterGui.Century2.Frame.tab4
 G2L["52"] = Instance.new("Frame", G2L["e"]);
 G2L["52"]["Visible"] = false;
 G2L["52"]["BorderSizePixel"] = 0;
-G2L["52"]["BackgroundColor3"] = Color3.fromRGB(255, 171, 121);
+G2L["52"]["BackgroundColor3"] = Color3.fromRGB(44, 83, 255);
 G2L["52"]["Size"] = UDim2.new(0.6862, 0, 0.81858, 0);
 G2L["52"]["Position"] = UDim2.new(0.29915, 0, 0.15487, 0);
 G2L["52"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["52"]["Name"] = [[tab4]];
+G2L["52"]["Name"] = [[tab2]];
 G2L["52"]["BackgroundTransparency"] = 1;
 
--- StarterGui.Century2.Frame.but2
-G2L["53"] = Instance.new("TextButton", G2L["e"]);
+-- StarterGui.Century2.Frame.tab3
+G2L["53"] = Instance.new("Frame", G2L["e"]);
+G2L["53"]["Visible"] = false;
 G2L["53"]["BorderSizePixel"] = 0;
-G2L["53"]["TextSize"] = 14;
-G2L["53"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["53"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["53"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["53"]["Size"] = UDim2.new(0.3074, 0, 0.134, 0);
-G2L["53"]["BackgroundTransparency"] = 1;
-G2L["53"]["Name"] = [[but2]];
+G2L["53"]["BackgroundColor3"] = Color3.fromRGB(222, 188, 255);
+G2L["53"]["Size"] = UDim2.new(0.6862, 0, 0.81858, 0);
+G2L["53"]["Position"] = UDim2.new(0.29915, 0, 0.15487, 0);
 G2L["53"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["53"]["Text"] = [[]];
-G2L["53"]["Position"] = UDim2.new(0.00335, 0, 0.36414, 0);
+G2L["53"]["Name"] = [[tab3]];
+G2L["53"]["BackgroundTransparency"] = 1;
+
+-- StarterGui.Century2.Frame.tab4
+G2L["54"] = Instance.new("Frame", G2L["e"]);
+G2L["54"]["Visible"] = false;
+G2L["54"]["BorderSizePixel"] = 0;
+G2L["54"]["BackgroundColor3"] = Color3.fromRGB(255, 171, 121);
+G2L["54"]["Size"] = UDim2.new(0.6862, 0, 0.81858, 0);
+G2L["54"]["Position"] = UDim2.new(0.29915, 0, 0.15487, 0);
+G2L["54"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["54"]["Name"] = [[tab4]];
+G2L["54"]["BackgroundTransparency"] = 1;
+
+-- StarterGui.Century2.Frame.but2
+G2L["55"] = Instance.new("TextButton", G2L["e"]);
+G2L["55"]["BorderSizePixel"] = 0;
+G2L["55"]["TextSize"] = 14;
+G2L["55"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["55"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["55"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["55"]["Size"] = UDim2.new(0.3074, 0, 0.134, 0);
+G2L["55"]["BackgroundTransparency"] = 1;
+G2L["55"]["Name"] = [[but2]];
+G2L["55"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["55"]["Text"] = [[]];
+G2L["55"]["Position"] = UDim2.new(0.00335, 0, 0.36414, 0);
 
 -- StarterGui.Century2.Frame.but2.LocalScript
-G2L["54"] = Instance.new("LocalScript", G2L["53"]);
+G2L["56"] = Instance.new("LocalScript", G2L["55"]);
 
 
 -- StarterGui.Century2.Frame.but2.LocalScript
-G2L["55"] = Instance.new("LocalScript", G2L["53"]);
+G2L["57"] = Instance.new("LocalScript", G2L["55"]);
 
 
 -- StarterGui.Century2.Frame.but2.UIAspectRatioConstraint
-G2L["56"] = Instance.new("UIAspectRatioConstraint", G2L["53"]);
-G2L["56"]["AspectRatio"] = 4.18105;
+G2L["58"] = Instance.new("UIAspectRatioConstraint", G2L["55"]);
+G2L["58"]["AspectRatio"] = 4.18105;
 
 -- StarterGui.Century2.Frame.but3
-G2L["57"] = Instance.new("TextButton", G2L["e"]);
-G2L["57"]["BorderSizePixel"] = 0;
-G2L["57"]["TextSize"] = 14;
-G2L["57"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["57"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["57"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["57"]["Size"] = UDim2.new(0.3074, 0, 0.134, 0);
-G2L["57"]["BackgroundTransparency"] = 1;
-G2L["57"]["Name"] = [[but3]];
-G2L["57"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["57"]["Text"] = [[]];
-G2L["57"]["Position"] = UDim2.new(0.00335, 0, 0.52596, 0);
+G2L["59"] = Instance.new("TextButton", G2L["e"]);
+G2L["59"]["BorderSizePixel"] = 0;
+G2L["59"]["TextSize"] = 14;
+G2L["59"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["59"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["59"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["59"]["Size"] = UDim2.new(0.3074, 0, 0.134, 0);
+G2L["59"]["BackgroundTransparency"] = 1;
+G2L["59"]["Name"] = [[but3]];
+G2L["59"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["59"]["Text"] = [[]];
+G2L["59"]["Position"] = UDim2.new(0.00335, 0, 0.52596, 0);
 
 -- StarterGui.Century2.Frame.but3.LocalScript
-G2L["58"] = Instance.new("LocalScript", G2L["57"]);
+G2L["5a"] = Instance.new("LocalScript", G2L["59"]);
 
 
 -- StarterGui.Century2.Frame.but3.LocalScript
-G2L["59"] = Instance.new("LocalScript", G2L["57"]);
+G2L["5b"] = Instance.new("LocalScript", G2L["59"]);
 
 
 -- StarterGui.Century2.Frame.but3.UIAspectRatioConstraint
-G2L["5a"] = Instance.new("UIAspectRatioConstraint", G2L["57"]);
-G2L["5a"]["AspectRatio"] = 4.18105;
+G2L["5c"] = Instance.new("UIAspectRatioConstraint", G2L["59"]);
+G2L["5c"]["AspectRatio"] = 4.18105;
 
 -- StarterGui.Century2.Frame.bg3
-G2L["5b"] = Instance.new("Frame", G2L["e"]);
-G2L["5b"]["Visible"] = false;
-G2L["5b"]["ZIndex"] = 2;
-G2L["5b"]["BorderSizePixel"] = 0;
-G2L["5b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["5b"]["Size"] = UDim2.new(0.2537, 0, 0.13274, 0);
-G2L["5b"]["Position"] = UDim2.new(0.02, 0, 0.526, 0);
-G2L["5b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["5b"]["Name"] = [[bg3]];
-G2L["5b"]["BackgroundTransparency"] = 1;
+G2L["5d"] = Instance.new("Frame", G2L["e"]);
+G2L["5d"]["Visible"] = false;
+G2L["5d"]["ZIndex"] = 2;
+G2L["5d"]["BorderSizePixel"] = 0;
+G2L["5d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["5d"]["Size"] = UDim2.new(0.2537, 0, 0.13274, 0);
+G2L["5d"]["Position"] = UDim2.new(0.02, 0, 0.526, 0);
+G2L["5d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5d"]["Name"] = [[bg3]];
+G2L["5d"]["BackgroundTransparency"] = 1;
 
 -- StarterGui.Century2.Frame.bg3.UICorner
-G2L["5c"] = Instance.new("UICorner", G2L["5b"]);
+G2L["5e"] = Instance.new("UICorner", G2L["5d"]);
 
 
 -- StarterGui.Century2.Frame.bg3.TextLabel
-G2L["5d"] = Instance.new("TextLabel", G2L["5b"]);
-G2L["5d"]["TextWrapped"] = true;
-G2L["5d"]["BorderSizePixel"] = 0;
-G2L["5d"]["TextScaled"] = true;
-G2L["5d"]["BackgroundColor3"] = Color3.fromRGB(168, 168, 168);
-G2L["5d"]["TextSize"] = 44;
-G2L["5d"]["FontFace"] = Font.new([[rbxassetid://12187373592]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["5d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["5d"]["BackgroundTransparency"] = 1;
-G2L["5d"]["Size"] = UDim2.new(0.99522, 0, 0.98333, 0);
-G2L["5d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["5d"]["Text"] = [[Universal]];
-G2L["5d"]["Position"] = UDim2.new(0.00613, 0, -0.00781, 0);
+G2L["5f"] = Instance.new("TextLabel", G2L["5d"]);
+G2L["5f"]["TextWrapped"] = true;
+G2L["5f"]["BorderSizePixel"] = 0;
+G2L["5f"]["TextScaled"] = true;
+G2L["5f"]["BackgroundColor3"] = Color3.fromRGB(168, 168, 168);
+G2L["5f"]["TextSize"] = 44;
+G2L["5f"]["FontFace"] = Font.new([[rbxassetid://12187373592]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["5f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["5f"]["BackgroundTransparency"] = 1;
+G2L["5f"]["Size"] = UDim2.new(0.99522, 0, 0.98333, 0);
+G2L["5f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5f"]["Text"] = [[Universal]];
+G2L["5f"]["Position"] = UDim2.new(0.00613, 0, -0.00781, 0);
 
 -- StarterGui.Century2.Frame.bg3.TextLabel.UIAspectRatioConstraint
-G2L["5e"] = Instance.new("UIAspectRatioConstraint", G2L["5d"]);
-G2L["5e"]["AspectRatio"] = 3.52542;
+G2L["60"] = Instance.new("UIAspectRatioConstraint", G2L["5f"]);
+G2L["60"]["AspectRatio"] = 3.52542;
 
 -- StarterGui.Century2.Frame.bg3.TextLabel.UITextSizeConstraint
-G2L["5f"] = Instance.new("UITextSizeConstraint", G2L["5d"]);
-G2L["5f"]["MaxTextSize"] = 44;
+G2L["61"] = Instance.new("UITextSizeConstraint", G2L["5f"]);
+G2L["61"]["MaxTextSize"] = 44;
 
 -- StarterGui.Century2.Frame.bg3.UIAspectRatioConstraint
-G2L["60"] = Instance.new("UIAspectRatioConstraint", G2L["5b"]);
-G2L["60"]["AspectRatio"] = 3.48333;
+G2L["62"] = Instance.new("UIAspectRatioConstraint", G2L["5d"]);
+G2L["62"]["AspectRatio"] = 3.48333;
 
 -- StarterGui.Century2.Frame.Frame
-G2L["61"] = Instance.new("Frame", G2L["e"]);
-G2L["61"]["BorderSizePixel"] = 0;
-G2L["61"]["BackgroundColor3"] = Color3.fromRGB(33, 37, 46);
-G2L["61"]["Size"] = UDim2.new(0.00728, 0, 1, 0);
-G2L["61"]["Position"] = UDim2.new(0.31075, 0, -0, 0);
-G2L["61"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["63"] = Instance.new("Frame", G2L["e"]);
+G2L["63"]["BorderSizePixel"] = 0;
+G2L["63"]["BackgroundColor3"] = Color3.fromRGB(33, 37, 46);
+G2L["63"]["Size"] = UDim2.new(0.00728, 0, 1, 0);
+G2L["63"]["Position"] = UDim2.new(0.31075, 0, -0, 0);
+G2L["63"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 
 -- StarterGui.Century2.Frame.TextLabel
-G2L["62"] = Instance.new("TextLabel", G2L["e"]);
-G2L["62"]["TextWrapped"] = true;
-G2L["62"]["BorderSizePixel"] = 0;
-G2L["62"]["TextScaled"] = true;
-G2L["62"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["62"]["TextSize"] = 41;
-G2L["62"]["FontFace"] = Font.new([[rbxassetid://12187373592]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["62"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["62"]["BackgroundTransparency"] = 1;
-G2L["62"]["Size"] = UDim2.new(0.21242, 0, 0.11062, 0);
-G2L["62"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["62"]["Text"] = [[CENTURY]];
-G2L["62"]["Position"] = UDim2.new(0.04186, 0, 0.01991, 0);
+G2L["64"] = Instance.new("TextLabel", G2L["e"]);
+G2L["64"]["TextWrapped"] = true;
+G2L["64"]["BorderSizePixel"] = 0;
+G2L["64"]["TextScaled"] = true;
+G2L["64"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["64"]["TextSize"] = 41;
+G2L["64"]["FontFace"] = Font.new([[rbxassetid://12187373592]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["64"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["64"]["BackgroundTransparency"] = 1;
+G2L["64"]["Size"] = UDim2.new(0.21242, 0, 0.11062, 0);
+G2L["64"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["64"]["Text"] = [[CENTURY]];
+G2L["64"]["Position"] = UDim2.new(0.04186, 0, 0.01991, 0);
 
 -- StarterGui.Century2.Frame.TextLabel.UITextSizeConstraint
-G2L["63"] = Instance.new("UITextSizeConstraint", G2L["62"]);
-G2L["63"]["MaxTextSize"] = 41;
+G2L["65"] = Instance.new("UITextSizeConstraint", G2L["64"]);
+G2L["65"]["MaxTextSize"] = 41;
 
 -- StarterGui.Century2.Frame.TextLabel.UIAspectRatioConstraint
-G2L["64"] = Instance.new("UIAspectRatioConstraint", G2L["62"]);
-G2L["64"]["AspectRatio"] = 3.49982;
+G2L["66"] = Instance.new("UIAspectRatioConstraint", G2L["64"]);
+G2L["66"]["AspectRatio"] = 3.49982;
 
 -- StarterGui.Century2.Frame.ImageLabel
-G2L["65"] = Instance.new("ImageLabel", G2L["e"]);
-G2L["65"]["BorderSizePixel"] = 0;
-G2L["65"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["65"]["Image"] = [[rbxassetid://18192235412]];
-G2L["65"]["Size"] = UDim2.new(0.08163, 0, 0.14181, 0);
-G2L["65"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["65"]["BackgroundTransparency"] = 1;
-G2L["65"]["Position"] = UDim2.new(0.00335, 0, -0, 0);
-
--- StarterGui.Century2.Frame.ImageLabel.UIAspectRatioConstraint
-G2L["66"] = Instance.new("UIAspectRatioConstraint", G2L["65"]);
-G2L["66"]["AspectRatio"] = 1.04904;
-
--- StarterGui.Century2.Frame.TextLabel
-G2L["67"] = Instance.new("TextLabel", G2L["e"]);
-G2L["67"]["TextWrapped"] = true;
-G2L["67"]["ZIndex"] = 0;
+G2L["67"] = Instance.new("ImageLabel", G2L["e"]);
 G2L["67"]["BorderSizePixel"] = 0;
-G2L["67"]["TextScaled"] = true;
 G2L["67"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["67"]["TextSize"] = 41;
-G2L["67"]["FontFace"] = Font.new([[rbxassetid://12187373592]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["67"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["67"]["BackgroundTransparency"] = 1;
-G2L["67"]["Size"] = UDim2.new(0.21242, 0, 0.11062, 0);
+G2L["67"]["Image"] = [[rbxassetid://18192235412]];
+G2L["67"]["Size"] = UDim2.new(0.08163, 0, 0.14181, 0);
 G2L["67"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["67"]["Text"] = [[CENTURY]];
-G2L["67"]["Position"] = UDim2.new(0.0402, 0, 0.02742, 0);
-
--- StarterGui.Century2.Frame.TextLabel.UITextSizeConstraint
-G2L["68"] = Instance.new("UITextSizeConstraint", G2L["67"]);
-G2L["68"]["MaxTextSize"] = 41;
-
--- StarterGui.Century2.Frame.TextLabel.UIAspectRatioConstraint
-G2L["69"] = Instance.new("UIAspectRatioConstraint", G2L["67"]);
-G2L["69"]["AspectRatio"] = 3.49982;
-
--- StarterGui.Century2.Frame.ImageLabel
-G2L["6a"] = Instance.new("ImageLabel", G2L["e"]);
-G2L["6a"]["ZIndex"] = 0;
-G2L["6a"]["BorderSizePixel"] = 0;
-G2L["6a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["6a"]["ImageColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["6a"]["Image"] = [[rbxassetid://18192235412]];
-G2L["6a"]["Size"] = UDim2.new(0.08163, 0, 0.14181, 0);
-G2L["6a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["6a"]["BackgroundTransparency"] = 1;
-G2L["6a"]["Position"] = UDim2.new(-0.00052, 0, 0.00895, 0);
+G2L["67"]["BackgroundTransparency"] = 1;
+G2L["67"]["Position"] = UDim2.new(0.00335, 0, -0, 0);
 
 -- StarterGui.Century2.Frame.ImageLabel.UIAspectRatioConstraint
-G2L["6b"] = Instance.new("UIAspectRatioConstraint", G2L["6a"]);
-G2L["6b"]["AspectRatio"] = 1.04904;
+G2L["68"] = Instance.new("UIAspectRatioConstraint", G2L["67"]);
+G2L["68"]["AspectRatio"] = 1.04904;
 
--- StarterGui.Century2.Frame.bg2
-G2L["6c"] = Instance.new("Frame", G2L["e"]);
-G2L["6c"]["Visible"] = false;
-G2L["6c"]["ZIndex"] = 2;
+-- StarterGui.Century2.Frame.TextLabel
+G2L["69"] = Instance.new("TextLabel", G2L["e"]);
+G2L["69"]["TextWrapped"] = true;
+G2L["69"]["ZIndex"] = 0;
+G2L["69"]["BorderSizePixel"] = 0;
+G2L["69"]["TextScaled"] = true;
+G2L["69"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["69"]["TextSize"] = 41;
+G2L["69"]["FontFace"] = Font.new([[rbxassetid://12187373592]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["69"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["69"]["BackgroundTransparency"] = 1;
+G2L["69"]["Size"] = UDim2.new(0.21242, 0, 0.11062, 0);
+G2L["69"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["69"]["Text"] = [[CENTURY]];
+G2L["69"]["Position"] = UDim2.new(0.0402, 0, 0.02742, 0);
+
+-- StarterGui.Century2.Frame.TextLabel.UITextSizeConstraint
+G2L["6a"] = Instance.new("UITextSizeConstraint", G2L["69"]);
+G2L["6a"]["MaxTextSize"] = 41;
+
+-- StarterGui.Century2.Frame.TextLabel.UIAspectRatioConstraint
+G2L["6b"] = Instance.new("UIAspectRatioConstraint", G2L["69"]);
+G2L["6b"]["AspectRatio"] = 3.49982;
+
+-- StarterGui.Century2.Frame.ImageLabel
+G2L["6c"] = Instance.new("ImageLabel", G2L["e"]);
+G2L["6c"]["ZIndex"] = 0;
 G2L["6c"]["BorderSizePixel"] = 0;
 G2L["6c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["6c"]["Size"] = UDim2.new(0.2537, 0, 0.13274, 0);
-G2L["6c"]["Position"] = UDim2.new(0.02, 0, 0.366, 0);
+G2L["6c"]["ImageColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6c"]["Image"] = [[rbxassetid://18192235412]];
+G2L["6c"]["Size"] = UDim2.new(0.08163, 0, 0.14181, 0);
 G2L["6c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["6c"]["Name"] = [[bg2]];
 G2L["6c"]["BackgroundTransparency"] = 1;
+G2L["6c"]["Position"] = UDim2.new(-0.00052, 0, 0.00895, 0);
+
+-- StarterGui.Century2.Frame.ImageLabel.UIAspectRatioConstraint
+G2L["6d"] = Instance.new("UIAspectRatioConstraint", G2L["6c"]);
+G2L["6d"]["AspectRatio"] = 1.04904;
+
+-- StarterGui.Century2.Frame.bg2
+G2L["6e"] = Instance.new("Frame", G2L["e"]);
+G2L["6e"]["Visible"] = false;
+G2L["6e"]["ZIndex"] = 2;
+G2L["6e"]["BorderSizePixel"] = 0;
+G2L["6e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["6e"]["Size"] = UDim2.new(0.2537, 0, 0.13274, 0);
+G2L["6e"]["Position"] = UDim2.new(0.02, 0, 0.366, 0);
+G2L["6e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6e"]["Name"] = [[bg2]];
+G2L["6e"]["BackgroundTransparency"] = 1;
 
 -- StarterGui.Century2.Frame.bg2.UICorner
-G2L["6d"] = Instance.new("UICorner", G2L["6c"]);
+G2L["6f"] = Instance.new("UICorner", G2L["6e"]);
 
 
 -- StarterGui.Century2.Frame.bg2.TextLabel
-G2L["6e"] = Instance.new("TextLabel", G2L["6c"]);
-G2L["6e"]["TextWrapped"] = true;
-G2L["6e"]["BorderSizePixel"] = 0;
-G2L["6e"]["TextScaled"] = true;
-G2L["6e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["6e"]["TextSize"] = 44;
-G2L["6e"]["FontFace"] = Font.new([[rbxassetid://12187373592]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["6e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["6e"]["BackgroundTransparency"] = 1;
-G2L["6e"]["Size"] = UDim2.new(1, 0, 0.98333, 0);
-G2L["6e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["6e"]["Text"] = [[Games]];
-G2L["6e"]["Position"] = UDim2.new(0.00185, 0, -0.00043, 0);
+G2L["70"] = Instance.new("TextLabel", G2L["6e"]);
+G2L["70"]["TextWrapped"] = true;
+G2L["70"]["BorderSizePixel"] = 0;
+G2L["70"]["TextScaled"] = true;
+G2L["70"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["70"]["TextSize"] = 44;
+G2L["70"]["FontFace"] = Font.new([[rbxassetid://12187373592]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["70"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["70"]["BackgroundTransparency"] = 1;
+G2L["70"]["Size"] = UDim2.new(1, 0, 0.98333, 0);
+G2L["70"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["70"]["Text"] = [[Games]];
+G2L["70"]["Position"] = UDim2.new(0.00185, 0, -0.00043, 0);
 
 -- StarterGui.Century2.Frame.bg2.TextLabel.UITextSizeConstraint
-G2L["6f"] = Instance.new("UITextSizeConstraint", G2L["6e"]);
-G2L["6f"]["MaxTextSize"] = 44;
+G2L["71"] = Instance.new("UITextSizeConstraint", G2L["70"]);
+G2L["71"]["MaxTextSize"] = 44;
 
 -- StarterGui.Century2.Frame.bg2.TextLabel.UIAspectRatioConstraint
-G2L["70"] = Instance.new("UIAspectRatioConstraint", G2L["6e"]);
-G2L["70"]["AspectRatio"] = 3.54237;
+G2L["72"] = Instance.new("UIAspectRatioConstraint", G2L["70"]);
+G2L["72"]["AspectRatio"] = 3.54237;
 
 -- StarterGui.Century2.Frame.bg2.UIAspectRatioConstraint
-G2L["71"] = Instance.new("UIAspectRatioConstraint", G2L["6c"]);
-G2L["71"]["AspectRatio"] = 3.48333;
+G2L["73"] = Instance.new("UIAspectRatioConstraint", G2L["6e"]);
+G2L["73"]["AspectRatio"] = 3.48333;
 
 -- StarterGui.Century2.Frame.TextLabel
-G2L["72"] = Instance.new("TextLabel", G2L["e"]);
-G2L["72"]["TextWrapped"] = true;
-G2L["72"]["BorderSizePixel"] = 0;
-G2L["72"]["TextScaled"] = true;
-G2L["72"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["72"]["TextSize"] = 44;
-G2L["72"]["FontFace"] = Font.new([[rbxassetid://12187373592]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["72"]["TextColor3"] = Color3.fromRGB(168, 168, 168);
-G2L["72"]["BackgroundTransparency"] = 1;
-G2L["72"]["Size"] = UDim2.new(0.2452, 0, 0.13053, 0);
-G2L["72"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["72"]["Text"] = [[Main]];
-G2L["72"]["Position"] = UDim2.new(0.02368, 0, 0.20575, 0);
+G2L["74"] = Instance.new("TextLabel", G2L["e"]);
+G2L["74"]["TextWrapped"] = true;
+G2L["74"]["BorderSizePixel"] = 0;
+G2L["74"]["TextScaled"] = true;
+G2L["74"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["74"]["TextSize"] = 44;
+G2L["74"]["FontFace"] = Font.new([[rbxassetid://12187373592]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["74"]["TextColor3"] = Color3.fromRGB(168, 168, 168);
+G2L["74"]["BackgroundTransparency"] = 1;
+G2L["74"]["Size"] = UDim2.new(0.2452, 0, 0.13053, 0);
+G2L["74"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["74"]["Text"] = [[Main]];
+G2L["74"]["Position"] = UDim2.new(0.02368, 0, 0.20575, 0);
 
 -- StarterGui.Century2.Frame.TextLabel.UIAspectRatioConstraint
-G2L["73"] = Instance.new("UIAspectRatioConstraint", G2L["72"]);
-G2L["73"]["AspectRatio"] = 3.42373;
+G2L["75"] = Instance.new("UIAspectRatioConstraint", G2L["74"]);
+G2L["75"]["AspectRatio"] = 3.42373;
 
 -- StarterGui.Century2.Frame.TextLabel.UITextSizeConstraint
-G2L["74"] = Instance.new("UITextSizeConstraint", G2L["72"]);
-G2L["74"]["MaxTextSize"] = 44;
+G2L["76"] = Instance.new("UITextSizeConstraint", G2L["74"]);
+G2L["76"]["MaxTextSize"] = 44;
 
 -- StarterGui.Century2.Frame.TextLabel
-G2L["75"] = Instance.new("TextLabel", G2L["e"]);
-G2L["75"]["TextWrapped"] = true;
-G2L["75"]["BorderSizePixel"] = 0;
-G2L["75"]["TextScaled"] = true;
-G2L["75"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["75"]["TextSize"] = 44;
-G2L["75"]["FontFace"] = Font.new([[rbxassetid://12187373592]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["75"]["TextColor3"] = Color3.fromRGB(168, 168, 168);
-G2L["75"]["BackgroundTransparency"] = 1;
-G2L["75"]["Size"] = UDim2.new(0.2537, 0, 0.13053, 0);
-G2L["75"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["75"]["Text"] = [[Games]];
-G2L["75"]["Position"] = UDim2.new(0.02098, 0, 0.36623, 0);
+G2L["77"] = Instance.new("TextLabel", G2L["e"]);
+G2L["77"]["TextWrapped"] = true;
+G2L["77"]["BorderSizePixel"] = 0;
+G2L["77"]["TextScaled"] = true;
+G2L["77"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["77"]["TextSize"] = 44;
+G2L["77"]["FontFace"] = Font.new([[rbxassetid://12187373592]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["77"]["TextColor3"] = Color3.fromRGB(168, 168, 168);
+G2L["77"]["BackgroundTransparency"] = 1;
+G2L["77"]["Size"] = UDim2.new(0.2537, 0, 0.13053, 0);
+G2L["77"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["77"]["Text"] = [[Games]];
+G2L["77"]["Position"] = UDim2.new(0.02098, 0, 0.36623, 0);
 
 -- StarterGui.Century2.Frame.TextLabel.UIAspectRatioConstraint
-G2L["76"] = Instance.new("UIAspectRatioConstraint", G2L["75"]);
-G2L["76"]["AspectRatio"] = 3.54237;
+G2L["78"] = Instance.new("UIAspectRatioConstraint", G2L["77"]);
+G2L["78"]["AspectRatio"] = 3.54237;
 
 -- StarterGui.Century2.Frame.TextLabel.UITextSizeConstraint
-G2L["77"] = Instance.new("UITextSizeConstraint", G2L["75"]);
-G2L["77"]["MaxTextSize"] = 44;
+G2L["79"] = Instance.new("UITextSizeConstraint", G2L["77"]);
+G2L["79"]["MaxTextSize"] = 44;
 
 -- StarterGui.Century2.Frame.TextLabel
-G2L["78"] = Instance.new("TextLabel", G2L["e"]);
-G2L["78"]["TextWrapped"] = true;
-G2L["78"]["BorderSizePixel"] = 0;
-G2L["78"]["TextScaled"] = true;
-G2L["78"]["BackgroundColor3"] = Color3.fromRGB(168, 168, 168);
-G2L["78"]["TextSize"] = 44;
-G2L["78"]["FontFace"] = Font.new([[rbxassetid://12187373592]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["78"]["TextColor3"] = Color3.fromRGB(168, 168, 168);
-G2L["78"]["BackgroundTransparency"] = 1;
-G2L["78"]["Size"] = UDim2.new(0.25249, 0, 0.13053, 0);
-G2L["78"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["78"]["Text"] = [[Universal]];
-G2L["78"]["Position"] = UDim2.new(0.02048, 0, 0.52553, 0);
+G2L["7a"] = Instance.new("TextLabel", G2L["e"]);
+G2L["7a"]["TextWrapped"] = true;
+G2L["7a"]["BorderSizePixel"] = 0;
+G2L["7a"]["TextScaled"] = true;
+G2L["7a"]["BackgroundColor3"] = Color3.fromRGB(168, 168, 168);
+G2L["7a"]["TextSize"] = 44;
+G2L["7a"]["FontFace"] = Font.new([[rbxassetid://12187373592]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["7a"]["TextColor3"] = Color3.fromRGB(168, 168, 168);
+G2L["7a"]["BackgroundTransparency"] = 1;
+G2L["7a"]["Size"] = UDim2.new(0.25249, 0, 0.13053, 0);
+G2L["7a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7a"]["Text"] = [[Universal]];
+G2L["7a"]["Position"] = UDim2.new(0.02048, 0, 0.52553, 0);
 
 -- StarterGui.Century2.Frame.TextLabel.UIAspectRatioConstraint
-G2L["79"] = Instance.new("UIAspectRatioConstraint", G2L["78"]);
-G2L["79"]["AspectRatio"] = 3.52542;
+G2L["7b"] = Instance.new("UIAspectRatioConstraint", G2L["7a"]);
+G2L["7b"]["AspectRatio"] = 3.52542;
 
 -- StarterGui.Century2.Frame.TextLabel.UITextSizeConstraint
-G2L["7a"] = Instance.new("UITextSizeConstraint", G2L["78"]);
-G2L["7a"]["MaxTextSize"] = 44;
+G2L["7c"] = Instance.new("UITextSizeConstraint", G2L["7a"]);
+G2L["7c"]["MaxTextSize"] = 44;
 
 -- StarterGui.Century2.Frame.Frame
-G2L["7b"] = Instance.new("Frame", G2L["e"]);
-G2L["7b"]["ZIndex"] = 0;
-G2L["7b"]["BorderSizePixel"] = 0;
-G2L["7b"]["BackgroundColor3"] = Color3.fromRGB(27, 30, 37);
-G2L["7b"]["Size"] = UDim2.new(0.65064, 0, 1, 0);
-G2L["7b"]["Position"] = UDim2.new(0.34838, 0, -0, 0);
-G2L["7b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7d"] = Instance.new("Frame", G2L["e"]);
+G2L["7d"]["ZIndex"] = 0;
+G2L["7d"]["BorderSizePixel"] = 0;
+G2L["7d"]["BackgroundColor3"] = Color3.fromRGB(27, 30, 37);
+G2L["7d"]["Size"] = UDim2.new(0.65064, 0, 1, 0);
+G2L["7d"]["Position"] = UDim2.new(0.34838, 0, -0, 0);
+G2L["7d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 
 -- StarterGui.Century2.Frame.Frame.UICorner
-G2L["7c"] = Instance.new("UICorner", G2L["7b"]);
-G2L["7c"]["CornerRadius"] = UDim.new(0, 30);
+G2L["7e"] = Instance.new("UICorner", G2L["7d"]);
+G2L["7e"]["CornerRadius"] = UDim.new(0, 30);
 
 -- StarterGui.Century2.Frame.Frame.UIAspectRatioConstraint
-G2L["7d"] = Instance.new("UIAspectRatioConstraint", G2L["7b"]);
-G2L["7d"]["AspectRatio"] = 1.18584;
+G2L["7f"] = Instance.new("UIAspectRatioConstraint", G2L["7d"]);
+G2L["7f"]["AspectRatio"] = 1.18584;
 
 -- StarterGui.Century2.Frame.TextLabel
-G2L["7e"] = Instance.new("TextLabel", G2L["e"]);
-G2L["7e"]["TextWrapped"] = true;
-G2L["7e"]["BorderSizePixel"] = 0;
-G2L["7e"]["TextScaled"] = true;
-G2L["7e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["7e"]["TextSize"] = 36;
-G2L["7e"]["FontFace"] = Font.new([[rbxassetid://12187373592]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["7e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["7e"]["BackgroundTransparency"] = 1;
-G2L["7e"]["Size"] = UDim2.new(0.05461, 0, 0.07522, 0);
-G2L["7e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["7e"]["Text"] = [[1.0]];
-G2L["7e"]["Position"] = UDim2.new(0.01272, 0, 0.9031, 0);
+G2L["80"] = Instance.new("TextLabel", G2L["e"]);
+G2L["80"]["TextWrapped"] = true;
+G2L["80"]["BorderSizePixel"] = 0;
+G2L["80"]["TextScaled"] = true;
+G2L["80"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["80"]["TextSize"] = 36;
+G2L["80"]["FontFace"] = Font.new([[rbxassetid://12187373592]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["80"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["80"]["BackgroundTransparency"] = 1;
+G2L["80"]["Size"] = UDim2.new(0.05461, 0, 0.07522, 0);
+G2L["80"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["80"]["Text"] = [[1.0]];
+G2L["80"]["Position"] = UDim2.new(0.01272, 0, 0.9031, 0);
 
 -- StarterGui.Century2.Frame.TextLabel.UIAspectRatioConstraint
-G2L["7f"] = Instance.new("UIAspectRatioConstraint", G2L["7e"]);
-G2L["7f"]["AspectRatio"] = 1.32327;
+G2L["81"] = Instance.new("UIAspectRatioConstraint", G2L["80"]);
+G2L["81"]["AspectRatio"] = 1.32327;
 
 -- StarterGui.Century2.Frame.TextLabel.UITextSizeConstraint
-G2L["80"] = Instance.new("UITextSizeConstraint", G2L["7e"]);
-G2L["80"]["MaxTextSize"] = 36;
+G2L["82"] = Instance.new("UITextSizeConstraint", G2L["80"]);
+G2L["82"]["MaxTextSize"] = 36;
 
 -- StarterGui.Century2.Frame.UIAspectRatioConstraint
-G2L["81"] = Instance.new("UIAspectRatioConstraint", G2L["e"]);
-G2L["81"]["AspectRatio"] = 1.82257;
-
--- StarterGui.Century2.Frame.Frame
-G2L["82"] = Instance.new("Frame", G2L["e"]);
-G2L["82"]["ZIndex"] = -1;
-G2L["82"]["BorderSizePixel"] = 0;
-G2L["82"]["BackgroundColor3"] = Color3.fromRGB(27, 30, 37);
-G2L["82"]["Size"] = UDim2.new(0.06191, 0, 1, 0);
-G2L["82"]["Position"] = UDim2.new(0.31075, 0, -0, 0);
-G2L["82"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-
--- StarterGui.Century2.Frame.Frame.UIAspectRatioConstraint
-G2L["83"] = Instance.new("UIAspectRatioConstraint", G2L["82"]);
-G2L["83"]["AspectRatio"] = 0.11283;
+G2L["83"] = Instance.new("UIAspectRatioConstraint", G2L["e"]);
+G2L["83"]["AspectRatio"] = 1.82257;
 
 -- StarterGui.Century2.Frame.Frame
 G2L["84"] = Instance.new("Frame", G2L["e"]);
+G2L["84"]["ZIndex"] = -1;
 G2L["84"]["BorderSizePixel"] = 0;
-G2L["84"]["BackgroundColor3"] = Color3.fromRGB(29, 33, 41);
-G2L["84"]["Size"] = UDim2.new(0.68196, 0, 0.009, 0);
-G2L["84"]["Position"] = UDim2.new(0.31804, 0, 0.13053, 0);
+G2L["84"]["BackgroundColor3"] = Color3.fromRGB(27, 30, 37);
+G2L["84"]["Size"] = UDim2.new(0.06191, 0, 1, 0);
+G2L["84"]["Position"] = UDim2.new(0.31075, 0, -0, 0);
 G2L["84"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+-- StarterGui.Century2.Frame.Frame.UIAspectRatioConstraint
+G2L["85"] = Instance.new("UIAspectRatioConstraint", G2L["84"]);
+G2L["85"]["AspectRatio"] = 0.11283;
+
+-- StarterGui.Century2.Frame.Frame
+G2L["86"] = Instance.new("Frame", G2L["e"]);
+G2L["86"]["BorderSizePixel"] = 0;
+G2L["86"]["BackgroundColor3"] = Color3.fromRGB(29, 33, 41);
+G2L["86"]["Size"] = UDim2.new(0.68196, 0, 0.009, 0);
+G2L["86"]["Position"] = UDim2.new(0.31804, 0, 0.13053, 0);
+G2L["86"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 
 -- StarterGui.Century2.Button.TextButton.LocalScript
 local function C_5()
@@ -1183,9 +1196,18 @@ local script = G2L["4d"];
 	end)
 end;
 task.spawn(C_4d);
+-- StarterGui.Century2.Frame.tab1.but1.LocalScript
+local function C_51()
+local script = G2L["51"];
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/dex.lua"))()
+	end)
+	
+end;
+task.spawn(C_51);
 -- StarterGui.Century2.Frame.but2.LocalScript
-local function C_54()
-local script = G2L["54"];
+local function C_56()
+local script = G2L["56"];
 	script.Parent.MouseButton1Click:connect(function()
 		script.Parent.Parent.tab1.Visible = false
 		script.Parent.Parent.tab2.Visible = true
@@ -1194,10 +1216,10 @@ local script = G2L["54"];
 		wait(0.1)
 	end)
 end;
-task.spawn(C_54);
+task.spawn(C_56);
 -- StarterGui.Century2.Frame.but2.LocalScript
-local function C_55()
-local script = G2L["55"];
+local function C_57()
+local script = G2L["57"];
 	script.Parent.MouseButton1Click:connect(function()
 		script.Parent.Parent.bg1.Visible = false
 		script.Parent.Parent.bg2.Visible = true
@@ -1206,10 +1228,10 @@ local script = G2L["55"];
 		wait(0.1)
 	end)
 end;
-task.spawn(C_55);
+task.spawn(C_57);
 -- StarterGui.Century2.Frame.but3.LocalScript
-local function C_58()
-local script = G2L["58"];
+local function C_5a()
+local script = G2L["5a"];
 	script.Parent.MouseButton1Click:connect(function()
 		script.Parent.Parent.tab1.Visible = false
 		script.Parent.Parent.tab2.Visible = false
@@ -1218,10 +1240,10 @@ local script = G2L["58"];
 		wait(0.1)
 	end)
 end;
-task.spawn(C_58);
+task.spawn(C_5a);
 -- StarterGui.Century2.Frame.but3.LocalScript
-local function C_59()
-local script = G2L["59"];
+local function C_5b()
+local script = G2L["5b"];
 	script.Parent.MouseButton1Click:connect(function()
 		script.Parent.Parent.bg1.Visible = false
 		script.Parent.Parent.bg2.Visible = false
@@ -1230,10 +1252,6 @@ local script = G2L["59"];
 		wait(0.1)
 	end)
 end;
-task.spawn(C_59);
+task.spawn(C_5b);
 
 return G2L["1"], require;
-
-end
-
-scipt1()
